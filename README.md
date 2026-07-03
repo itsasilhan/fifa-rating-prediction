@@ -2,6 +2,8 @@
 
 A segmented machine learning pipeline that predicts a player's overall rating (OVR) in EA Sports FC 25, using a separate model per positional role instead of one generic model for all players.
 
+## You can try predict by yourself there https://fifa-rating-prediction.streamlit.app/
+
 ## Motivation
 
 A single model trained on all players tends to treat every attribute the same way regardless of position, which does not reflect how ratings actually work in football. A center back does not need elite shooting to be rated highly, and a striker does not need elite tackling. At the same time, secondary attributes still matter to some extent, and a player who is exceptional in one profile attribute but critically weak in another should not be overrated.
